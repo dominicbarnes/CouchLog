@@ -48,7 +48,7 @@ Entries are made by sending a new Document to the CouchDB database.
  * **application** - An identifier for your particular application
  * **section** - The segment of your application that is recording the log entry
  * **level** - A "severity" level of the log entry
- * **timestamp** - A Unix timestamp in PHP `microtime()` format (or equivalent)
+ * **timestamp** - A Unix timestamp (Example above is in PHP `microtime(true)` format)
  * **message** - A subject line for the log entry
  * **data** - The meta-data associated with this log entry
 
@@ -65,4 +65,4 @@ You can use the CouchLog User Interface to browse through your applications log 
 	$ git clone git://github.com/desdev/CouchLog.git
 	$ cd CouchLog/couchapp
 	$ couchapp init
-	$ couchapp push applog
+	$ couchapp push apploge
