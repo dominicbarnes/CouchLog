@@ -1,0 +1,93 @@
+/* Global Element Definitions */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: tahoma, verdana, arial;
+}
+
+form {
+	padding: 0;
+	margin-bottom: 1em;
+}
+
+hr {
+	margin: 2em 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+h1 {
+	border-bottom: 3px double #99f;
+	padding-bottom: .1em;
+}
+
+h2 {
+	border-bottom: 2px solid #99f;
+}
+
+li {
+	line-height: 1.25em;
+}
+
+
+/* Class Section Definitions
+table.data {
+	border-color: #ccc;
+	border-width: 2px;
+}
+
+	table.data th {
+		background-color: #36a4d9;
+		color: #fff;
+		text-align: left;
+	}
+
+	table.data td {
+		background-color: #fff;
+	}
+*/
+
+.right {
+	float: right;
+	clear: both;
+}
+
+
+/* ID Section Definitions */
+#header {
+	padding: .5em 1em;
+}
+
+	#header h1 {
+		margin: 0;
+		padding: 0;
+		border: none;
+		float: right;
+		font-size: .7em;
+	}
+
+	#header a {
+		font-size: 2em;
+	}
+
+
+	#header p {
+		font-style: italic;
+		margin: 0 0 .5em 0;
+	}
+
+#content {
+	padding: 1em 1em 3em 1em;
+}
+
+#footer {
+	font-size: .8em;
+	padding: .2em 1em;
+	text-align: right;
+}
+
+#debug {
+	padding: 1em;
+}

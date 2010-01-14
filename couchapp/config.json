@@ -1,0 +1,6 @@
+{
+	"title": "CouchLog",
+	"version": "0.2-alpha",
+	"slogan": "Application Logging that Actually Helps",
+	"debug": false
+}

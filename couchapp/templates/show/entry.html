@@ -1,0 +1,49 @@
+<h1>Log Entry</h1>
+
+<h2>General Information</h2>
+
+<table class="data" border="1" cellpadding="5">
+
+<tr>
+	<th>Application Name:</th>
+	<td><%= application %></td>
+</tr>
+
+<tr>
+	<th>Section:</th>
+	<td><%= section %></td>
+</tr>
+
+<tr>
+	<th>Level:</th>
+	<td><%= level %></td>
+</tr>
+
+<tr>
+	<th>Timestamp:</th>
+	<td><%= timestamp %></td>
+</tr>
+
+</table>
+
+<h2>Entry Meta-Data</h2>
+
+<%= data %>
+
+<hr />
+
+<h2>CouchDB Information</h2>
+
+<table class="data" border="1" cellpadding="5">
+
+<tr>
+	<th>Document ID:</th>
+	<td><%= doc._id %></td>
+</tr>
+
+<tr>
+	<th>Document Revision:</th>
+	<td><%= doc._rev %></td>
+</tr>
+
+</table>

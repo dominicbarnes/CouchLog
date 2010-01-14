@@ -1,0 +1,30 @@
+<a class="right" href="<%= browsePath %>">&laquo; All Entries</a>
+
+<button id="btnFilter"><img src="<%= basePath %>/img/icon/funnel.png" width="16" height="16" /> Filter By Date</button>
+<form id="frmFilter" method="GET" class="ui-helper-hidden">
+	<input type="hidden" id="hdnBasePath" value="<%= basePath %>" />
+	<input type="hidden" id="hdnView" value="<%= req.path[5] %>" />
+	<input type="hidden" id="hdnStartKey" value='<%= req.query.startkey %>' />
+	<input type="hidden" id="hdnEndKey" value='<%= req.query.endkey %>' />
+
+	Date Range:
+	<input type="text" class="datePicker" id="txtDateStart" />
+	&raquo;
+	<input type="text" class="datePicker" id="txtDateEnd" />
+	<button id="btnSubmit" type="button">Filter</button>
+</form>
+
+<table id="entries" border="1" cellpadding="5" width="100%">
+
+<thead>
+	<tr>
+		<th>Application</th>
+		<th>Timestamp</th>
+		<th>Section</th>
+		<th>Level</th>
+		<th>Message</th>
+		<th></th>
+	</tr>
+</thead>
+
+<tbody>

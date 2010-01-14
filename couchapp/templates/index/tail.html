@@ -1,0 +1,34 @@
+		</tbody>
+
+		</table>
+	</div>
+
+	<script type="text/javascript" src="<%= base %>/js/jquery-1.3.2.min.js"></script>
+	<script type="text/javascript" src="<%= base %>/js/jquery.qtip-1.0.0-rc3.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.tooltip').qtip({
+				position: {
+					corner: {
+						target: 'bottomLeft',
+						tooltip: 'topRight'
+					}
+				},
+				style: {
+					name: 'blue',
+					padding: 10,
+					border: {
+						width: 3,
+						radius: 5
+					},
+					width: {
+						min: 250,
+						max: 500
+					}
+				}
+			});
+		});
+	</script>
+</body>
+
+</html>

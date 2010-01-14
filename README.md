@@ -30,11 +30,11 @@ The CouchApp Interface allows you to quickly and easily filter through many log 
 
 Entries are made by sending a new Document to the CouchDB database.
 
-### A Sample Log Entry Documents
+### A Sample Log Entry Document
 	{
 		"application": "My Application",
 		"section": "User Activity",
-		"level": "notice",
+		"level": "Notice",
 		"timestamp": 1263062089.44
 		"message": "User Login Recorded",
 		"data": {
@@ -43,14 +43,26 @@ Entries are made by sending a new Document to the CouchDB database.
 		}
 	}
 
+### Explanation
+
+ * **application** - An identifier for your particular application
+ * **section** - The segment of your application that is recording the log entry
+ * **level** - A "severity" level of the log entry
+ * **timestamp** - A Unix timestamp in PHP `microtime()` format (or equivalent)
+ * **message** - A subject line for the log entry
+ * **data** - The meta-data associated with this log entry
+
 You can use the CouchLog User Interface to browse through your applications log entries, filtering by date, application, section and level.
 
 ## Installing CouchLog
 
- * [Install CouchApp](http://wiki.github.com/couchapp/couchapp/manual-2) (along with CouchDB)
- * Check out the CouchLog Source from GitHub
+### Install CouchApp (along with CouchDB)
 
-	$ git clone git://github.com/desdev/CouchLog.git  
-	$ cd CouchLog/couchapp  
-	$ couchapp init  
-	$ couchapp push applog  
+[CouchApp Manual](http://wiki.github.com/couchapp/couchapp/manual-2)
+
+### Check out the CouchLog Source from GitHub  
+
+	$ git clone git://github.com/desdev/CouchLog.git
+	$ cd CouchLog/couchapp
+	$ couchapp init
+	$ couchapp push applog

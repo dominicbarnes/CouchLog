@@ -1,0 +1,12 @@
+<tr>
+	<td><%= application %></td>
+	<td><%= timestamp %></td>
+	<td><%= section %></td>
+	<td><%= level %></td>
+	<td><%= message %></td>
+	<td>
+		<% if (typeof data != 'undefined') { %>
+			<img class="tooltip" src="<%= base %>/img/icon/data.png" height="16" width="16" title='<%= data %>' />
+		<% } %>
+	</td>
+</tr>

@@ -1,0 +1,12 @@
+<tr>
+	<td><a href="<%= paths.byApp %>"><%= data.application %></a></td>
+	<td><%= data.timestamp %></td>
+	<td><a href="<%= paths.bySection %>"><%= data.section %></a></td>
+	<td><a href="<%= paths.byLevel %>"><%= data.level %></a></td>
+	<td><a href="<%= paths.showEntry %>"><%= data.message %></a></td>
+	<td align="center">
+		<% if (typeof data != 'undefined') { %>
+			<img class="tooltip" src="<%= paths.base %>/img/icon/sticky-notes.png" height="16" width="16" title='<%= data.data %>' />
+		<% } %>
+	</td>
+</tr>
