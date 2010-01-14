@@ -5,8 +5,6 @@ _Application Logging that Actually Helps_
 
 An Application Logging tool built atop CouchDB via CouchApp.
 
----
-
 ## Why should I use CouchLog?
 
 Applications usually needs to maintain activity logs of some sort. Usually this is accomplished through a flat file with each line containing 1 unique entry. If you're really sophisticated, you will have a database (like MySQL) that stores your log information.
@@ -28,8 +26,6 @@ CouchLog leverages the schema-less, document-oriented approach that CouchDB uses
 
 The CouchApp Interface allows you to quickly and easily filter through many log entries at once, greatly enhancing efficiency and reducing headaches when you need to debug or troubleshoot your applications.
 
----
-
 ## How does CouchLog work?
 
 Entries are made by sending a new Document to the CouchDB database.
@@ -48,8 +44,6 @@ Entries are made by sending a new Document to the CouchDB database.
 	}
 
 You can use the CouchLog User Interface to browse through your applications log entries, filtering by date, application, section and level.
-
----
 
 ## Installing CouchLog
 
