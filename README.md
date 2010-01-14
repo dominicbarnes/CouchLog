@@ -50,7 +50,7 @@ You can use the CouchLog User Interface to browse through your applications log 
  * [Install CouchApp](http://wiki.github.com/couchapp/couchapp/manual-2) (along with CouchDB)
  * Check out the CouchLog Source from GitHub
 
-	$ git clone git://github.com/desdev/CouchLog.git
-	$ cd CouchLog/couchapp
-	$ couchapp init
-	$ couchapp push applog
+	$ git clone git://github.com/desdev/CouchLog.git  
+	$ cd CouchLog/couchapp  
+	$ couchapp init  
+	$ couchapp push applog  
