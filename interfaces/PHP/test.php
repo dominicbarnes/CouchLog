@@ -3,8 +3,7 @@
 require_once('log.class.php');
 
 $log = new Log('applog');
-$log->debug = true;
-#$log->db->truncate();
+$log->db->debug = true;
 
 # Create a single entry in the database
 $log->entry(
