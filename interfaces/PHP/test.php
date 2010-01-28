@@ -10,8 +10,8 @@ $log->debug = true;
 $log->entry(
 	'My Application',
 	'User Activity',
-	'Notice',
 	'User Login Recorded',
+	'Notice',
 	Array(
 		'username' => 'testuser',
 		'source' => 'homepage'
