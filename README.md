@@ -65,4 +65,4 @@ You can use the CouchLog User Interface to browse through your applications log 
 	$ git clone git://github.com/desdev/CouchLog.git
 	$ cd CouchLog/couchapp
 	$ couchapp init
-	$ couchapp push apploge
+	$ couchapp push applog
